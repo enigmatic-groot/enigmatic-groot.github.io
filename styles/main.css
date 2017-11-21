@@ -1,0 +1,69 @@
+
+.demo-layout-transparent {
+  background: url('../assets/demos/transparent.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: darkslateblue;
+}
+
+header {
+  background: url(../images/paul-morris-144777.jpg) center / cover;
+  height: 60vh
+  justify-content: center;
+  text-align: center;
+  color:
+
+}
+h1 {
+
+  color: darkslateblue(0, 0%, 100%, 0.9);
+  font-weight: bold;
+}
+.slogan {
+color: hsla(239, 83%, 48%, 0.6588235294117647);
+  font-weight: lighter;
+  font-size: 1.6rem;
+  text-shadow: 1px, 1px, 0, 1px black;
+}
+#colorific {
+color: hsla(242, 100%, 34%, 0.49);
+text-shadow: 1px, 1px, 3, 1px black;
+
+}
+
+main {
+  max-width: 900px;
+}
+
+.project-description {
+  padding-left: 0;
+}
+
+.project img {
+  width: 100%;
+
+}
+
+footer.mdl-mini-footer {
+  bottom: 0;
+  padding: 0.5rem;
+  position: fixed;
+  width: 100%
+  z-index: 1;
+}
+body {
+  padding-bottom: 5rem;
+}
+
+footer.mdl-mini-footer > ul {
+  margin: auto;
+  font-size: 3rem;
+}
+@media screen and (max-width: 1024px) {
+   header.mdl-layout__header {
+     display: flex;
+   }
+ }
